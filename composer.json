@@ -1,0 +1,32 @@
+{
+    "name": "IlyaSerdyuk/form-elements",
+    "type": "library",
+    "description": "Expansion of a set of Zend Framework 2/3 form elements",
+    "keywords": ["zf2", "zf3", "form", "dateperiod", "timeperiod", "autocomplete", "multiautocomplete"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Ilya Serdyuk", "email": "ilya@serdyuk.pro"}
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-view": "^2.6.7",
+        "zendframework/zend-form": "^2.9",
+        "zendframework/zend-mvc": "^3.0.1"
+    },
+    "suggest": {
+        "zfbase/zend3-bootstrap3": "required for using Twitter Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {"ZFbase\\FormElements\\" : "src"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "zf": {
+            "module": "ZFbase\\FormElements"
+        }
+    }
+}

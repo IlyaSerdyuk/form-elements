@@ -1,2 +1,7 @@
-# form-elements
-Expansion of a set of Zend Framework 2/3 form elements
+# Form elements for Zend Framework 2/3
+
+Elements:
+- DatePeriod
+- TimePeriod
+- Autocomplete
+- MultiAutocomplete
