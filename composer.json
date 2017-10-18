@@ -1,5 +1,5 @@
 {
-    "name": "IlyaSerdyuk/form-elements",
+    "name": "ilyaserdyuk/form-elements",
     "type": "library",
     "description": "Expansion of a set of Zend Framework 2/3 form elements",
     "keywords": ["zf2", "zf3", "form", "dateperiod", "timeperiod", "autocomplete", "multiautocomplete"],
